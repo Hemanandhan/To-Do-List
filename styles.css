@@ -1,0 +1,71 @@
+body {
+    background-color: #ff768c ;
+    
+}
+h1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    top: 20px;
+}
+.container-1 {
+    position: relative;
+    background-color: #e8e8e8;
+    width: 500px;
+    height: 100px;
+    left: 400px;
+    top: 20px;
+}
+.container-2 {
+    position: relative;
+    height: 350px;
+    width: 500px;
+    background-color: #e8e8e8;
+    left: 400px;
+    top: 40px;
+}
+.add-item {
+    position: relative;
+    border-color: #e8e8e8;
+    font-size: 16px;
+    height: 30px;
+    width: 350px;
+    top: 30px;
+    left: 20px;
+}
+.add-button {
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+    left: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+ol {
+    margin: 0;
+    padding: 0;
+}
+ol li {
+    position: relative;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;  
+}
+ol li:nth-child(even) {
+    background: gray;
+}
+ol li:nth-child(even):hover {
+    background: #686d76;
+}
+ol li.checked {
+    text-decoration: line-through;
+}
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
